@@ -121,7 +121,6 @@
   console.log(sumup(10, 10, 10))
 
 
-  
 
 
 
