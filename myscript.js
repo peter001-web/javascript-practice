@@ -99,7 +99,7 @@
   function someargs(...arg) {
     for (let args = 0; args < arg.length; args++) {
       if (arg[args] === 'peter', 'tomiwa','prince') {
-        console.log(arg[args]);
+        console.log(arg[args]); 
         
       }
       
