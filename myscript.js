@@ -106,7 +106,7 @@
     } 
 
   }
-
+  
   someargs('tomiwa', 'peter', 'prince')
 
   function sumup(...toadd) {
