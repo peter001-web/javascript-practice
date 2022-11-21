@@ -96,29 +96,30 @@
   // }
 
 
-  // function someargs(...arg) {
-  //   for (let arg = 0; arg < arg.length; arg++) {
-  //     if (arg[arg] === 'tomiwa') {
-  //       console.log(arg[arg]);
+  function someargs(...arg) {
+    for (let args = 0; args < arg.length; args++) {
+      if (arg[args] === 'peter', 'tomiwa','prince') {
+        console.log(arg[args]);
         
-  //     }
+      }
       
-  //   }
+    }
 
-  // }
+  }
 
-  // someargs('tomiwa', 'peter', 'prince')
+  someargs('tomiwa', 'peter', 'prince')
 
   function sumup(...toadd) {
-    console.log(toadd);
+    // console.log(toadd);
     let result = 0 ;
   for (let i = 0; i < toadd.length; i++) {
     result += toadd[i];
+    // console.log(toadd[i]);
     
   }
   return result ;
   }
-  console.log(sumup(10, 10, 10))
+  // console.log(sumup(10, 10, 10))
 
 
 
