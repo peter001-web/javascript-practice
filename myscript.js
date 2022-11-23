@@ -98,16 +98,16 @@
 
   function someargs(...arg) {
     for (let args = 0; args < arg.length; args++) {
-      if (arg[args] === 'peter', 'tomiwa','prince') {
-        console.log(arg[args]); 
+      // if (arg[args] === 'peter', 'tomiwa','prince',) {
+        // console.log(arg[args]); 
          
       }
       
     } 
  
-  }
+  // }
   
-  someargs('tomiwa', 'peter', 'prince')
+  someargs('tomiwa', 'peter', 'prince', )
 
   function sumup(...toadd) {
     // console.log(toadd);
@@ -121,7 +121,20 @@
   }
   // console.log(sumup(10, 10, 10))
 
+  function  someschools(...schools) {
+    for (let school = 0; school < schools.length; school++) {
+      if (schools[school] === 'rhema', 'clover','porter') {
+        console.log(schools[school]);
+        
+      }
+    }
+    
+  }
+  someschools('rhema');
 
+function name(params) {
+  
+}
 
   
 
