@@ -96,18 +96,20 @@
   // }
 
 
-  function someargs(...arg) {
-    for (let args = 0; args < arg.length; args++) {
-      // if (arg[args] === 'peter', 'tomiwa','prince',) {
-        // console.log(arg[args]); 
+  // function someargs(...arg) {
+  //   for (let args = 0; args < arg.length; args++) {
+  //     if (arg[args] === 'peter', 'tomiwa','prince',) {
+  //       console.log(arg[args]); 
          
-      }
+  //     }
       
-    } 
+  //   } 
  
   // }
   
-  someargs('tomiwa', 'peter', 'prince', )
+  // someargs('tomiwa', 'peter', 'prince', ) 
+
+
 
   function sumup(...toadd) {
     // console.log(toadd);
@@ -130,14 +132,84 @@
     }
     
   }
-  someschools('rhema');
-
-function name(params) {
-  
-}
+  // someschools('rhema');
 
   
 
 
 
   // wednesday 11/16/2022
+
+  
+  // thursday 11/24/2022
+
+  // JAVASCRIPT OBJECT
+  const bike = {
+    name: 'toyota',
+    color: 'red',
+    model: 101
+  }
+
+  // console.log(bike);
+
+  // #Example 2
+  const table = new Object();
+  table.name = 'furniture';
+  table.color = 'red';
+  table.price = 1000;
+
+  // console.log(table);
+
+
+  // #Example 3
+  class car {
+  constructor(name, color, model) {
+    this.name = name;
+    this.color = color;
+    this.model = model;
+
+  }
+}
+
+// console.log(new car);
+
+// const yamaha = new car{'mmm'}
+
+class cars {
+  constructor(name, color, height) {
+    this.name = name;
+    this.color = color;
+    this.height = height;
+  }
+}
+
+
+const yamaha = new cars('yama','red',10)
+const toyota = new cars('toyota','red',10)
+
+console.log(cars);
+ 
+
+
+// console.log(yamaha);
+// console.log(
+
+// );
+
+
+  // thursday 11/24/2022
+
+
+
+
+
+  // friday 11/25/2022
+// JAVASCRIPT ARRAY
+
+let shoppingcart = ['oil', 22,]
+// console.log(shoppingcart);
+
+// const animal = new animal ('monkeyk', 'cow');
+// console.log(animal);
+
+  // friday 11/25/2022
