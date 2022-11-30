@@ -182,7 +182,7 @@ class cars {
     this.height = height;
   }
 }
-
+ 
 
 const yamaha = new cars('yama','red',10)
 const toyota = new cars('toyota','red',10)
