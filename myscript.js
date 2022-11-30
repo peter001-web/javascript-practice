@@ -189,7 +189,7 @@ const toyota = new cars('toyota','red',10)
 
 console.log(cars); 
  
- 
+  
   
 // console.log(yamaha);
 // console.log(
