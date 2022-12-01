@@ -187,7 +187,7 @@ class cars {
 const yamaha = new cars('yama','red',10)
 const toyota = new cars('toyota','red',10)
 
-console.log(cars);
+console.log(cars); 
  
 
 
