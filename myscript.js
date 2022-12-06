@@ -187,9 +187,8 @@ class cars {
 const yamaha = new cars('yama','red',10)
 const toyota = new cars('toyota','red',10)
 
-console.log(cars); 
+// console.log(cars); 
  
-  
   
 // console.log(yamaha);
 // console.log(
@@ -209,7 +208,70 @@ console.log(cars);
 let shoppingcart = ['oil', 22,]
 // console.log(shoppingcart);
 
-// const animal = new animal ('monkeyk', 'cow');
 // console.log(animal);
 
   // friday 11/25/2022
+
+  
+  // thursdasy 12/1/2022
+
+  //  JAVASCRIPT STRING
+
+  const name4 = 'james';
+
+  let newname = new String('tommy is a guy ')
+
+  // console.log(newname.charAt(1));
+  // console.log(newname.indexOf('y'));
+  // console.log(newname.lastIndexOf('o'));
+  // console.log(newname.search('a'));
+  // console.log(newname.match('a'));
+  // console.log(newname.replace('a','the'));
+
+
+  const anothername = newname.concat(' ', 'lamide')
+  // console.log(anothername);
+
+
+
+
+
+
+
+
+// JAVASCRIPT DATE
+2
+const date = new Date();
+// console.log(date.getDate());
+// console.log(date.getDay());
+// console.log(date.getMonth());
+// console.log(date.getFullYear());
+// console.log(date.getHours);
+
+// const anotherdate = date.concat( '')
+// console.log(anotherdate);
+
+
+  // thursdasy 12/1/2022i;
+
+
+
+  // friday 12/2/2022
+  // JAVASCRIPT MATHx
+  const negnum = -10;
+  // console.log(Math.sqrt(100));
+
+  // console.log(Math.random()*10);
+  console.log(Math.floor (Math.random()*10 ));
+  
+
+
+// MDN JAVASCRIPT 
+
+
+
+  // friday 12/2/2022
+
+  
+
+  1234567890
